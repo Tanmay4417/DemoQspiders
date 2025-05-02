@@ -35,6 +35,8 @@ public class Keyboard {
 		driver.findElement(By.id("password")).sendKeys("Veera@123");
 		driver.findElement(By.id("confirmPassword")).sendKeys("Veera@123");
 		driver.findElement(By.xpath("//button[.='Press Enter to Submit']")).submit();
+
+		System.out.println("hi");
 		
 	}
 
